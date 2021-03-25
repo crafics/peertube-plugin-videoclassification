@@ -1,9 +1,9 @@
 {
-  "name": "peertube-plugin-quickstart",
-  "description": "PeerTube plugin quickstart",
+  "name": "peertube-plugin-video-classification",
+  "description": "PeerTube plugin video classification",
   "version": "0.0.2",
   "author": "Chocobozzz",
-  "bugs": "https://framagit.org/framasoft/peertube/peertube-plugin-quickstart/issues",
+  "bugs": "https://github.com/crafics/peertube-plugin-video-classification/issues",
   "clientScripts": [
     {
       "script": "dist/common-client-plugin.js",
@@ -23,7 +23,7 @@
   "engine": {
     "peertube": ">=1.3.0"
   },
-  "homepage": "https://framagit.org/framasoft/peertube/peertube-plugin-quickstart",
+  "homepage": "https://github.com/crafics/peertube-plugin-video-classification",
   "keywords": [
     "peertube",
     "plugin"
@@ -37,6 +37,6 @@
     "images": "public/images"
   },
   "translations": {
-    "fr-FR": "./languages/fr.json"
+    "en-EN": "./languages/en.json"
   }
 }
