@@ -1,3 +1,3 @@
-# PeerTube plugin Quickstart
+# PeerTube plugin Video Classification
 
-See https://docs.joinpeertube.org/#/contribute-plugins?id=write-a-plugintheme
+See https://github.com/crafics/peertube-plugin-video-classification
