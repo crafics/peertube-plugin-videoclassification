@@ -3,6 +3,7 @@
   "description": "PeerTube plugin video classification",
   "version": "0.0.2",
   "author": "Chocobozzz",
+  "license": "UNLICENSED",
   "bugs": "https://github.com/crafics/peertube-plugin-videoclassification/issues",
   "clientScripts": [
     {
