@@ -1,9 +1,9 @@
 {
-  "name": "peertube-plugin-video-classification",
+  "name": "peertube-plugin-videoclassification",
   "description": "PeerTube plugin video classification",
   "version": "0.0.2",
   "author": "Chocobozzz",
-  "bugs": "https://github.com/crafics/peertube-plugin-video-classification/issues",
+  "bugs": "https://github.com/crafics/peertube-plugin-videoclassification/issues",
   "clientScripts": [
     {
       "script": "dist/common-client-plugin.js",
@@ -23,7 +23,7 @@
   "engine": {
     "peertube": ">=1.3.0"
   },
-  "homepage": "https://github.com/crafics/peertube-plugin-video-classification",
+  "homepage": "https://github.com/crafics/peertube-plugin-videoclassification",
   "keywords": [
     "peertube",
     "plugin"
