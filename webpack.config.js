@@ -4,7 +4,7 @@ const EsmWebpackPlugin = require("@purtuga/esm-webpack-plugin")
 
 const clientFiles = [
   'common-client-plugin.js',
-  'video-edit-client-plugin'
+  'video-edit-client-plugin.js'
 ]
 
 let config = clientFiles.map(f => ({
