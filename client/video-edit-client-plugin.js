@@ -1,5 +1,4 @@
 async function register ({ registerVideoField, peertubeHelpers }) {
-  const descriptionHTML = await peertubeHelpers.translate(descriptionSource)
   const commonOptions = {
     name: 'my-field-name',
     label: 'My added field',
