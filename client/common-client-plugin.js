@@ -1,6 +1,6 @@
 async function register ({ registerVideoField, peertubeHelpers }) {
   const commonOptions = {
-    name: 'my-field-name',
+    name: 'my-field-name-1',
     label: 'My added field',
     descriptionHTML: 'Optional description',
     type: 'input-textarea',
