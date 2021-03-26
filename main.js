@@ -7,7 +7,12 @@ async function register ({
   videoLicenceManager,
   videoLanguageManager
 }) {
-
+  registerSetting({
+    name: 'instructions',
+    label: 'Instructions',
+    type: 'input-textarea',
+    private: false
+  })
 }
 
 async function unregister () {
