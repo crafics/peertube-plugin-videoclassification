@@ -9,13 +9,13 @@
     {
       "script": "dist/common-client-plugin.js",
       "scopes": [
-        "common", "common"
+        "common"
       ]
     },
     {
       "script": "dist/video-edit-plugin.js",
       "scopes": [
-        "video-edit", "video-edit"
+        "video-edit"
       ]
     }
   ],
