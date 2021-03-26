@@ -1,15 +1,16 @@
-function register ({ registerHook, peertubeHelpers }) {
-peertubeHelpers.showModal({
-   title: 'My custom modal title',
-   content: '<p>My custom modal content</p>',
-   // Optionals parameters :
-   // show close icon
-   close: true,
-   // show cancel button and call action() after hiding modal
-   cancel: { value: 'cancel', action: () => {} },
-   // show confirm button and call action() after hiding modal
-   confirm: { value: 'confirm', action: () => {} },
- })
+async function register ({ registerVideoField, peertubeHelpers }) {
+  const descriptionHTML = await peertubeHelpers.translate(descriptionSource)
+  const commonOptions = {
+    name: 'my-field-name,
+    label: 'My added field',
+    descriptionHTML: 'Optional description',
+    type: 'input-textarea',
+    default: ''
+  }
+
+  for (const type of [ 'upload', 'import-url', 'import-torrent', 'update' ]) {
+    registerVideoField(commonOptions, { type })
+  }
 }
 
 export {
