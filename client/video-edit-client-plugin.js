@@ -4,7 +4,7 @@ async function register ({ registerVideoField, peertubeHelpers }) {
     name: 'my-field-name',
     label: 'My added field',
     descriptionHTML: 'Optional description',
-    type: 'input-textarea',
+    type: 'select-options',
     default: ''
   }
 
